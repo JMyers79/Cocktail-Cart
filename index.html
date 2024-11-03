@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Cart</title>
+    <style>
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+          border: 5px dashed #c31d1d;
+        }
+  
+        .box {
+          flex: 0 0 500px;
+          height: 125px;
+          background-color: rgb(35, 192, 48);
+          margin: 5px;
+          font-size: xx-large;
+          color: rgb(239, 208, 162);
+          box-sizing: border-box;
+          padding: 2px;
+          margin: 2px;
+          font-size: medium;
+        }
+        h1 {
+          width: 100%;
+          background-color: rgb(35, 192, 48);
+          color: #c31d1d;
+          text-align: center;
+          font-size: xx-large;
+        }
+        .drink {
+          float: right;
+          margin-right: 3px;
+          font-size: large;
+          font-weight: bold;
+          width: 50%;
+        }
+        img{
+            height: 120px;
+            width: 120px;
+        }
+        p{
+            font-size: larger;
+        }
+        aside{
+            flex: 0 0 200px;
+            flex-grow: 1;
+            height: auto; 
+            background-color: #c31d1d;
+            font-size: larger;
+            color: rgb(239, 208, 162);
+            margin-top: 30px;
+            border:5px solid rgb(35, 192, 48);
+            border-radius: 5px;
+        }
+    </style>
+    <script src="./lib/jquery-3.6.0.js"></script>
+    <script src="cocktail_info.js"></script>
+    <script src="cocktail.js"></script>
+</head>
+<body>
+    <h1>Cocktail Cart</h1>
+    <p>Hover over for drink ingredients and click for calories</p>
+    <div class="wrapper">
+    </div>
+    <aside>
+        Christmas and cocktails make a festive match! Picture a cozy gathering by the fireplace, the aroma of evergreen wafting through the room, and your friends or family raising glasses 
+        brimming with holiday-themed drinks. From classic eggnog spiced with nutmeg to innovative concoctions like cranberry margaritas or peppermint martinis, each sip brings a burst of seasonal cheer. 
+        Cocktails crafted with ingredients like cinnamon, ginger, and vanilla add warmth to the celebration, while the twinkling lights of the Christmas tree set a magical backdrop. It’s a time for laughter, 
+        love, and creating memories, one delicious drink at a time. Cheers to the season!
+    </aside>
+</body>
+</html>
